@@ -13,5 +13,4 @@ userdel <username>
 
 `
 userdel --remove <username> 
-##### remove user and home directory
 `
