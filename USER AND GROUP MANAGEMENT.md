@@ -20,6 +20,7 @@ userdel --remove <username> --- remove user and home directory
 `
 useradd --uid <uidnumber> <username> -- change uid number
 `
+
 `
 useradd --system <system-name> -- add a system program 
 `
