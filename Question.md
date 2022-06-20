@@ -1,5 +1,5 @@
 #### How to find the linux version and kernel release.
-`sh
+`
 uname -a
 `
 #### Check a system current IP address.
