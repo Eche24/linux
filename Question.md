@@ -4,7 +4,7 @@ uname -a
 `
 #### Check a system current IP address.
 `
-ifconfig
+ifconfig / 
 ip addr show
 `
 #### Check for free disk space.
