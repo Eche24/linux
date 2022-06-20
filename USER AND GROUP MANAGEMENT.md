@@ -3,9 +3,11 @@
 `
 useradd <username> 
 `
+
 `
 useradd --shell /bin/othershell --home-dir /home/otherdirectory/<user>  
 `
+
 `passwd <username>
 `
 
