@@ -26,4 +26,8 @@ useradd --uid <uidnumber> <username> -- change uid number
 `
 useradd --system <system-name> -- add a system program 
 `
+#### modify user
 
+`
+usermod
+`
