@@ -9,3 +9,8 @@ ip route show or ip r
 
 show ip
 ip address show or ip a
+
+Add ip
+`
+ip a add <ip> dev
+`
