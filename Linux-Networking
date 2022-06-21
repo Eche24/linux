@@ -14,3 +14,7 @@ Add ip
 `
 ip a add <ip> dev
 `
+Statically route ip traffic
+`
+ip route add <ip> via <ipr> <interface>
+`
