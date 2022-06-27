@@ -27,3 +27,26 @@ ln -s path_to_target_file path_to_link_file
 `ls -l
  to see the softlink. but if the file is to long. used the 'readlink path_to_target_file'
 `
+
+# List, set and change file.
+
+## Owners and Groups
+Change group 'chgrp' command
+`
+chgrp <group-name> <filename>
+`
+list group
+
+`
+groups
+`
+change owner
+
+`
+chown <owner-name> <filename>
+`
+changing group and ownership together
+
+`
+chown <ownername>:<groupname> <filename>
+`
