@@ -1,16 +1,26 @@
-Partitioning Disk Device
+#Partitioning Disk Device
 
-Common Patiotion table in Linux
+#Common Patiotion table in Linux
 
 MBR - Master Boot record, 2TB , Max partition is 4, and has it limitation.
 GUID  - Globally Unique Identifer Disk, 8ZB. Max 128.
 
-Partitioning Tools
+#Partitioning Tools
 
 fdisk - interactive command
 parted - partition Editor: support both MBR and  GPT
 gdisk -  GUID
+cfdisk
 
-Creating a Partition Table.
+#Creating a Partition Table.
 
 fdisk /dev/sda
+
+#FileSystem
+
+#creating an ext4 filesystem
+mkfs.ext4 -L DATA /dev/<>
+
+EFI system - booting filesystem
+
+Mounting filesystem: process of attaching a filesystem to a running system. 
