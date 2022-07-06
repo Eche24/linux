@@ -20,7 +20,26 @@ fdisk /dev/sda
 
 #creating an ext4 filesystem
 mkfs.ext4 -L DATA /dev/<>
+mkfs.xfs /dev/<>
 
 EFI system - booting filesystem
 
 Mounting filesystem: process of attaching a filesystem to a running system. 
+
+
+
+
+
+
+
+
+#Swap Space
+
+swapon --show
+mkswap /dev/<> - used this partition as swap
+swapon /dev/<> - used this partition 
+swapoff /dev/<>
+
+#Using a file as swap space
+DD if=/dev/zero of=/swap bs=1M count=128 - using a input file in dev/zero(inifinite number of zero),
+mkswap /swap
