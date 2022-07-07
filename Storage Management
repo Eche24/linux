@@ -43,3 +43,9 @@ swapoff /dev/<>
 #Using a file as swap space
 DD if=/dev/zero of=/swap bs=1M count=128 - using a input file in dev/zero(inifinite number of zero),
 mkswap /swap
+
+
+
+
+
+Logical Volume Manager
