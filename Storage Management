@@ -1,3 +1,28 @@
+
+
+
+
+
+
+
+$lscpu
+$lsmod - list module
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Partitioning Disk Device
 
 #Common Patiotion table in Linux
