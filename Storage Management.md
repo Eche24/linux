@@ -1,6 +1,8 @@
 
+Block Storage.
 
-
+Device Driver -  the kernel module used to access the physical device.
+Device File -    /dev/sda , having a file to represent the disk standard I/O can be used to read and write to disk. 
 
 
 
