@@ -1,0 +1,16 @@
+STDIN - COMMANDS ARE TYPED.
+STDOUT - COMMANDS SEND THEIR RESULT BY DEFAULT i.e SCREEN.
+STDERR - COMMANDS SEND ERROR MESSAGES BY DEFAULT.
+
+> -  write
+>> -  append
+2>/dev/null - error 
+
+
+### Variable
+$ env - print a list of environment variables.
+$ echo $SHELL - current shell
+$ echo $PATH - current path
+
+### alias
+Allow you to define your own commands.
