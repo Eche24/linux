@@ -59,7 +59,11 @@ $ mkfs.xfs /dev/<>
 
 `
 
-### EFI system - booting filesystem
+`
+$blkid - list uuid
+`
+ 
+### EFI system - booting filesystemy
 
 ### Mounting filesystem: process of attaching a filesystem to a running system. 
 
