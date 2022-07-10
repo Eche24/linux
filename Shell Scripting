@@ -14,3 +14,6 @@ $ echo $PATH - current path
 
 ### alias
 Allow you to define your own commands.
+
+### grep
+
