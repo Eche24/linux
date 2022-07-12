@@ -1,2 +1,7 @@
 ### Find Command
 
+$ find /usr/share/ -name '.jpg'
+
+$ find [/path/to/directory] [search_parameters]
+
+
