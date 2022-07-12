@@ -57,7 +57,7 @@ chown <ownername>:<groupname> <filename>
 
 
 ## Octal Permissions
-
+rwx
 000 - 0
 001 - 1
 010 - 2
