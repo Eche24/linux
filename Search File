@@ -5,3 +5,20 @@ $ find /usr/share/ -name '.jpg'
 $ find [/path/to/directory] [search_parameters]
 
 
+ # Modified Time
+ 
+ find -mmin [minute] #modified minute.
+ 
+ find -mtime #days
+ find -cmin - change time about metadata, like file permission.
+ 
+ 
+ #size
+ 
+ find -size [size]. -  
+ c - bytes
+ k - kilobytes
+ M - megabytes.
+ G - gigabytes
+ 
+ 
